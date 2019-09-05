@@ -1,0 +1,13 @@
+name: Hello Actions
+on: [push]
+
+jobs:
+  first_job:
+    name: First job
+    runs-on: ubuntu-latest
+    steps:
+    - name: Print a greeting
+      env:
+        NAME: Actions
+      run: |
+        echo Welcome to the $NAME world!
