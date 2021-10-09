@@ -1,4 +1,4 @@
 #!/bin/bash
 set -e
 
-echo "$PRIVATE_KEY" > ../../private.key
+echo "$PRIVATE_KEY" > private.key
