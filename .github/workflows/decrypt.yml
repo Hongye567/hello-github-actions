@@ -36,3 +36,8 @@ jobs:
         run: |
           cat private.key
           echo test, and deploy your project.
+          
+      - name: Create file
+        run: |
+          echo "Hello World!" > hello.txt
+          cat hello.txt
